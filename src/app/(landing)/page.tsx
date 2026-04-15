@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import { AboutMe } from "@/components/aboutme1";
 import AboutMe from "./aboutme.tsx";
 import Skills from "./skills.tsx";
 import Experience from "./experience.tsx";
