@@ -1,3 +1,4 @@
+import "server-only";
 import React from "react";
 
 const Projects: React.FC = () => {
@@ -38,7 +39,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="text-base">
           <div className="font-bold text-black dark:text-red-50 py-4">
-            Hitachi – Aqua Tech Engineering - Real Time Monitoring Dashboard
+            Hitachi – Aqua Tech - Real Time Dashboard
           </div>
           <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
@@ -61,7 +62,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="text-base">
           <div className="font-bold text-black dark:text-red-50 py-4">
-            Apple Corporation - Vendor Management System
+            Apple Corporation - Vendor Management
           </div>
           <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
@@ -82,7 +83,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="text-base">
           <div className="font-bold text-black dark:text-red-50 py-4">
-            Apple Corporation - Beats - CMS
+            Apple Corporation - Beats CMS
           </div>
           <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
@@ -101,7 +102,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="text-base">
           <div className="font-bold text-black dark:text-red-50 py-4">
-            Apple Corporation - Sales and Marketing (Marcom)
+            Apple Corporation - Sales and Marketing
           </div>
           <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
@@ -121,8 +122,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="text-base">
           <div className="font-bold text-black dark:text-red-50 py-4">
-            E * Trade Financial Corporation - Corporate Services - Equity Edge
-            Online (EEO)
+            E * Trade Financial Corporation - Equity Edge Online (EEO)
           </div>
           <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">

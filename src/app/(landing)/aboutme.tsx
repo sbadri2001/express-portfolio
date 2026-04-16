@@ -1,3 +1,4 @@
+import "server-only";
 import React from "react";
 
 const AboutMe: React.FC = () => {
@@ -27,54 +28,55 @@ const AboutMe: React.FC = () => {
           Templates
         </a>{" "} */}
       </p>
-      <div className="text-base sm:flex-row text-zinc-600 dark:text-zinc-400 ">
-        <div className="md:flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">Name:</span>
-            <span className="text-sm pl-2 font-medium">
-              Badrinarayanan Sridharan{" "}
-            </span>
+      <div className="text-base sm:flex-row text-zinc-600 dark:text-zinc-400">
+        <div className="md:flex flex-col gap-4 text-base sm:flex-row">
+          <div className="flex-1 py-1 text-md ">
+            <span className="text-[#8AC776] font-bold">Name:</span>
+            <span className="pl-2 font-medium">Badrinarayanan Sridharan </span>
           </div>
-          <div className="flex-1">
-            <span className="text-[#8AC776] text-md font-bold">Birthday:</span>
-            <span className="text-sm pl-2 font-medium">22nd Oct, 1985</span>
+          <div className="flex-1 text-md">
+            <span className="text-[#8AC776] font-bold">Birthday:</span>
+            <span className="pl-2 font-medium">22nd Oct, 1985</span>
           </div>
         </div>
         <div className="text-base md:flex flex-col gap-4 sm:flex-row">
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">Degree:</span>
-            <span className="text-sm pl-2 font-medium">
-              B.E, Computer Science
-            </span>
+          <div className="flex-1 py-1 text-md">
+            <span className="text-[#8AC776] font-bold">Degree:</span>
+            <span className="pl-2 font-medium">B.E, Computer Science</span>
           </div>
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">
-              Experience:
-            </span>
-            <span className="text-sm pl-2 font-medium">17 years</span>
+          <div className="flex-1 py-1 text-md">
+            <span className="text-[#8AC776] font-bold">Experience:</span>
+            <span className="pl-2 font-medium">17 years</span>
           </div>
         </div>
         <div className="text-base md:flex flex-col gap-4 sm:flex-row">
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">Phone:</span>
-            <span className="text-sm pl-2 font-medium">9789087148</span>
+          <div className="flex-1 py-1 text-md">
+            <span className="text-[#8AC776] font-bold">Phone:</span>
+            <span className="pl-2 font-medium">
+              <a href="tel:+919789087148">9789087148</a>
+            </span>
           </div>
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">E-mail:</span>
-            <span className="text-sm pl-2 font-medium">
-              sbadri_2001@yahoo.co.in
+          <div className="flex-1 py-1 text-md">
+            <span className="text-[#8AC776] font-bold">E-mail:</span>
+            <span className="pl-2 font-medium">
+              <a
+                href="mailto:sbadri_2001@yahoo.co.in"
+                className="text-blue-500 hover:underline"
+              >
+                sbadri_2001@yahoo.co.in
+              </a>
             </span>
           </div>
         </div>
-        <div className="text-base md:flex flex-col gap-4 font-medium sm:flex-row">
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">Location:</span>
-            <span className="text-sm pl-2 font-medium">Chennai</span>
+        <div className="text-base md:flex flex-col gap-4 sm:flex-row">
+          <div className="flex-1 py-1 text-md">
+            <span className="text-[#8AC776] font-bold">Location:</span>
+            <span className="pl-2 font-medium">Chennai</span>
           </div>
-          <div className="flex-1 py-1">
-            <span className="text-[#8AC776] text-md font-bold">Role:</span>
-            <span className="text-sm pl-2 font-medium">
-              Full-stack web developer, UI Architect
+          <div className="flex-1 py-1 text-md">
+            <span className="text-[#8AC776] font-bold">Role:</span>
+            <span className="pl-2 font-medium">
+              Full-stack web / UI Architect
             </span>
           </div>
         </div>
