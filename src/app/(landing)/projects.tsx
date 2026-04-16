@@ -8,9 +8,7 @@ const Projects: React.FC = () => {
       </h2>
       <div className="text-base font-medium py-2">
         <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">
-            Verizon – Digital Sales: July 2024 – June 2025
-          </div>
+          <div className="text-md font-bold py-4">Verizon – Digital Sales</div>
           <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
@@ -38,7 +36,7 @@ const Projects: React.FC = () => {
         </div>
         <div className="text-base font-medium">
           <div className="text-md font-bold py-4">
-            Hitachi – Aqua Tech Engineering Pte. - (HAQT): Dec 2023 - June 2024
+            Hitachi – Aqua Tech Engineering - Real Time Monitoring Dashboard
           </div>
           <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
@@ -55,6 +53,88 @@ const Projects: React.FC = () => {
               <li>
                 Developed interactive visualization solutions using charts,
                 high-performant grids and geo maps.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-base font-medium">
+          <div className="text-md font-bold py-4">
+            Apple Corporation - Vendor Management System
+          </div>
+          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+            <ul className="list-disc">
+              <li>
+                Responsible for revamping complex SPA application from
+                Angular.js to React.JS.
+              </li>
+              <li>
+                Played key role in ramping up & managing teams from onshore and
+                offshore.
+              </li>
+              <li>
+                Working on active Proposal responses from clients on solutions,
+                estimation & project bids.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-base font-medium">
+          <div className="text-md font-bold py-4">
+            Apple Corporation - Beats Music - CMS
+          </div>
+          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+            <ul className="list-disc">
+              <li>
+                Designed and built complex CMS applications, writing queries for
+                high performance search, asset migrations, uploading and
+                downloading assets, rendition workflows, and media experiences
+                with video players.
+              </li>
+              <li>
+                Responsible for delivering multiple SPA projects for Apple
+                Marketing, Beats teams etc.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-base font-medium">
+          <div className="text-md font-bold py-4">
+            Apple Corporation - Sales and Marketing (Marcom)
+          </div>
+          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+            <ul className="list-disc">
+              <li>
+                Designed and built complex CMS applications, writing queries for
+                high performance search, asset migrations, uploading and
+                downloading assets, rendition workflows, and media experiences
+                with video players.
+              </li>
+              <li>
+                Built multiple Single page applications for authoring and
+                organizing content, partner management for apple ads, sharing
+                guidelines and media assets for partners etc.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-base font-medium">
+          <div className="text-md font-bold py-4">
+            E * Trade Financial Corporation - Corporate Services - Equity Edge
+            Online (EEO)
+          </div>
+          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+            <ul className="list-disc">
+              <li>
+                Worked as a full stack development on Java, J2EE, hibernate,
+                oracle, SQL, SOAP, Spring frameworks, XML, XSLT
+              </li>
+              <li>
+                Mentored a team to build SQL queries and complex accounting,
+                valuation and reporting engine using best practices and design
+                patterns.
+              </li>
+              <li>
+                Worked on developing rich user interfaces for the application.
               </li>
             </ul>
           </div>
