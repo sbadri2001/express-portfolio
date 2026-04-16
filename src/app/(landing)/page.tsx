@@ -7,7 +7,7 @@ import Projects from "./projects.tsx";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="max-w-3xl py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <main className="max-w-3xl py-8 md:py-12 px-4 md:px-12 bg-white dark:bg-black sm:items-start">
         {/* <Image
           className="dark:invert"
           src="/next.svg"
