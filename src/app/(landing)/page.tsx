@@ -16,7 +16,7 @@ export default function Home() {
           height={20}
           priority
         /> */}
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+        <div className="flex flex-col items-center gap-6 sm:items-start sm:text-left">
           <AboutMe />
           <Skills />
           <Experience />

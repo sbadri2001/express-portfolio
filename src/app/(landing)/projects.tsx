@@ -6,10 +6,12 @@ const Projects: React.FC = () => {
       <h2 className="relative after:absolute after:-bottom-1 after:left-0 after:h-1 after:w-1/4 after:py-0.5 after:bg-[#8AC776] max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-red-50">
         Projects
       </h2>
-      <div className="text-base font-medium py-2">
-        <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">Verizon – Digital Sales</div>
-          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+      <div className="text-base py-2">
+        <div className="text-base">
+          <div className="font-bold text-black dark:text-red-50 py-4">
+            Verizon – Digital Sales
+          </div>
+          <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
                 Worked as an UI architect for a big team with 100+ developers
@@ -34,11 +36,11 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">
+        <div className="text-base">
+          <div className="font-bold text-black dark:text-red-50 py-4">
             Hitachi – Aqua Tech Engineering - Real Time Monitoring Dashboard
           </div>
-          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+          <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
                 Worked as an UI architect for an industrial automation client
@@ -57,11 +59,11 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">
+        <div className="text-base">
+          <div className="font-bold text-black dark:text-red-50 py-4">
             Apple Corporation - Vendor Management System
           </div>
-          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+          <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
                 Responsible for revamping complex SPA application from
@@ -78,11 +80,11 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">
-            Apple Corporation - Beats Music - CMS
+        <div className="text-base">
+          <div className="font-bold text-black dark:text-red-50 py-4">
+            Apple Corporation - Beats - CMS
           </div>
-          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+          <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
                 Designed and built complex CMS applications, writing queries for
@@ -97,11 +99,11 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">
+        <div className="text-base">
+          <div className="font-bold text-black dark:text-red-50 py-4">
             Apple Corporation - Sales and Marketing (Marcom)
           </div>
-          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+          <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
                 Designed and built complex CMS applications, writing queries for
@@ -117,12 +119,12 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="text-base font-medium">
-          <div className="text-md font-bold py-4">
+        <div className="text-base">
+          <div className="font-bold text-black dark:text-red-50 py-4">
             E * Trade Financial Corporation - Corporate Services - Equity Edge
             Online (EEO)
           </div>
-          <div className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+          <div className="leading-6 text-zinc-600 dark:text-zinc-400">
             <ul className="list-disc">
               <li>
                 Worked as a full stack development on Java, J2EE, hibernate,
