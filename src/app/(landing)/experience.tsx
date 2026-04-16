@@ -35,8 +35,7 @@ const Experience: React.FC = () => {
             Cognizant Technology Solutions
           </div>
           <div className="text-base font-medium text-black dark:text-red-50">
-            Frontend Architect & Principal Software Engineer | May 2007 - Mar
-            2023
+            UI Architect & Principal Software Engineer | May 2007 - Mar 2023
           </div>
           <div className="leading-6 text-zinc-600 dark:text-zinc-400 py-2">
             Played a pivotal role in architecting and delivering high-scale,
