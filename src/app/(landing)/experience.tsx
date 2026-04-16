@@ -1,3 +1,4 @@
+import "server-only";
 import React from "react";
 
 const Experience: React.FC = () => {
@@ -6,10 +7,10 @@ const Experience: React.FC = () => {
       <h2 className="relative after:absolute after:-bottom-1 after:left-0 after:h-1 after:w-1/4 after:py-0.5 after:bg-[#8AC776] max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-red-50">
         Experience
       </h2>
-      <div className="py-4 text-zinc-600 dark:text-zinc-400 ">
+      <div className="py-4 text-zinc-600 dark:text-zinc-400 md:relative after:content-[''] after:absolute after:-left-2 after:top-5 after:h-[calc(100%-40px)] after:w-px after:bg-[#8AC776] md:px-4">
         <div>
-          <div className="text-base font-bold pb-1 text-black dark:text-red-50">
-            GlobalLogic
+          <div className="text-base font-bold pb-1 text-black dark:text-red-50 md:relative after:content-['->'] after:absolute after:-left-6 after:top-0 after:text-[#8AC776]">
+            Global Logic
           </div>
           <div className="text-base font-medium text-black dark:text-red-50">
             Solutions Architect | Dec 2023 - June 2025
@@ -31,7 +32,7 @@ const Experience: React.FC = () => {
           </div>
         </div>
         <div>
-          <div className="text-base font-bold pb-1 text-black dark:text-red-50">
+          <div className="text-base font-bold pb-1 text-black dark:text-red-50 md:relative after:content-['->'] after:absolute after:-left-6 after:top-0 after:text-[#8AC776]">
             Cognizant Technology Solutions
           </div>
           <div className="text-base font-medium text-black dark:text-red-50">
