@@ -8,19 +8,25 @@ const AboutMe: React.FC = () => {
         About Me
       </h2>
       <p className="text-md leading-6 text-zinc-600 dark:text-zinc-400 py-4 font-medium">
-        Technical UI Architect specializing in building high-scale, responsive
-        web applications using React and Next.js. I am an expert in designing
-        predictable state management systems with Redux and crafting highly
-        performant, Accessible interfaces using Tailwind CSS. My architectural
-        focus extends beyond the UI to the entire delivery lifecycle; I have
-        experience setting up custom configurations for optimal asset bundling
-        and engineering robust AWS CI/CD pipelines that ensure seamless,
-        automated deployments. By leveraging GitHub for sophisticated version
-        control and collaborative workflows, I bridge the gap between complex
-        frontend logic and cloud infrastructure. I am dedicated to setting
-        technical standards that prioritize modular architecture, bundle size
-        optimization, and deployment velocity to deliver world-class digital
-        products.
+        <i>
+          <b>Technical UI Architect</b>
+        </i>{" "}
+        specializing in building <b>high-scale</b>, <b>responsive</b> web and
+        server applications using modern Javascript frameworks. I am an expert
+        in designing predictable <b>state management systems</b> and crafting
+        highly <b>performant, accessible</b> interfaces. My architectural focus
+        extends beyond the UI to the entire delivery lifecycle; I have
+        experience engineering robust <b>CI/CD pipelines</b> that ensure
+        seamless, automated deployments with integrated code checkpoint gatings.
+        By leveraging sophisticated version control and collaborative workflows,
+        I bridge the gap between complex frontend logic and{" "}
+        <b>cloud infrastructure</b>. I am dedicated to setting technical
+        standards that prioritize{" "}
+        <b>
+          modular architecture, bundle size optimization, and deployment
+          velocity
+        </b>{" "}
+        to deliver world-class digital products.
         {/* <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           className="font-medium text-zinc-950 dark:text-zinc-50"
